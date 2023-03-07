@@ -7,6 +7,6 @@ public class ExitGame : MonoBehaviour
     public void Exit()
     {
         Application.Quit();
-        Debug.Log("Hola bon dia!");
+        Debug.Log("Adeu! Que tinguis bon dia!");
     }
 }

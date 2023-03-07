@@ -16,6 +16,7 @@ public class GameplayManager : MonoBehaviour
         currentNode = StoryFiller.FillStory();
         HistoryText.text = string.Empty;
         FillUi();
+        Debug.Log("Hola bon dia!")
     }
 
     void FillUi(){
